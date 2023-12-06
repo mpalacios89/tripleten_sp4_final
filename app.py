@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
         
 car_data = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/new-markets/Data_sprint_4_Refactored/vehicles_us.csv') # leer los datos
-hist_button = st.button('Construir histograma') # crear un botón
+hist_button = st.button('Construir histograma y grafico de dispersion') # crear un botón
         
 if hist_button: # al hacer clic en el botón
     # escribir un mensaje
